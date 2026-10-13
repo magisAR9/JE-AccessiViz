@@ -1,7 +1,5 @@
 # JE-AccessiViz
-## Atelier 5 : "Comment représenter l’accessibilité urbaine ?"
-
-#### Géovisualisation des accessibilités : exploration de l'usage de métaphores
+## Atelier 5 SAGEO 2026 : "Comment représenter l’accessibilité urbaine ?"
 
 Dans le cadre de la conférence SAGEO 2026 (https://sageo2026.sciencesconf.org/), nous organisons un atelier consacré **à l’utilisation de métaphores pour cartographier l’accessibilité urbaine - AccessiViz** (atelier numéro 5 [https://sageo2026.sciencesconf.org/resource/page/id/18](https://sageo2026.sciencesconf.org/resource/page/id/18)).
 
