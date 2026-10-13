@@ -1,5 +1,5 @@
 # JE-AccessiViz
-# Atelier 5 : "Comment représenter l’accessibilité urbaine ?"
+## Atelier 5 : "Comment représenter l’accessibilité urbaine ?"
 
 #### Géovisualisation des accessibilités : exploration de l'usage de métaphores
 
