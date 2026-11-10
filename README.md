@@ -3,7 +3,7 @@
 
 Dans le cadre de la conférence SAGEO 2026 (https://sageo2026.sciencesconf.org/), nous organisons un atelier consacré **à l’utilisation de métaphores pour cartographier l’accessibilité urbaine - AccessiViz** (atelier numéro 5 [https://sageo2026.sciencesconf.org/resource/page/id/18](https://sageo2026.sciencesconf.org/resource/page/id/18)).
 
-Cet atelier aura lieu le mardi 17 novembre 2026 à Toulouse, de 10h à 12h, et de 13h30 à 14h.
+Cet atelier aura lieu le mardi 17 novembre 2026 à INP-AgroToulouse (ENSAT), de 10h à 12h, et de 13h30 à 15h30.
 
 ## Objectif de l'atelier
 
@@ -13,7 +13,7 @@ L'objectif de cet atelier est **d’explorer collectivement les possibilités of
 
 ## Déroulé de l'atelier
 
-Dans une première partie de l’atelier (10h-12h), les participant·es auront à disposition un jeu de données disponible en ligne (ici - lien page html) composé de fonds de cartes et d'un ensemble d’indicateurs statistiques déjà calculés sur plusieurs thématiques liées à l’accessibilité. Les données seront disponibles à différentes échelles géographiques du périmètre d'une agglomération (de même que les métadonnées et les fichiers source du calcul de ces indicateurs). Les participant·es sont invité·es, seul·e, en binôme, trio, etc. à proposer une ou plusieurs représentations (carto-)graphiques métaphoriques de l'accessibilité présentée à l'échelle de leur choix, au format papier ou numérique, statique, dynamique ou interactive, et au moyen de leur outil de prédilection.
+Dans une première partie de l’atelier (10h-12h), les participant·es auront à disposition un jeu de données disponible en ligne composé de fonds de cartes et d'un ensemble d’indicateurs statistiques déjà calculés sur plusieurs thématiques liées à l’accessibilité. Les données seront disponibles à différentes échelles géographiques du périmètre d'une agglomération (de même que les métadonnées et les fichiers source du calcul de ces indicateurs). Les participant·es sont invité·es, seul·e, en binôme, trio, etc. à proposer une ou plusieurs représentations (carto-)graphiques métaphoriques de l'accessibilité présentée à l'échelle de leur choix, au format papier ou numérique, statique, dynamique ou interactive, et au moyen de leur outil de prédilection.
 
 Dans une seconde phase (13h30-15h30), les participant·es seront invité·es à débattre de chaque proposition, et de la potentialité de transmettre à différents publics une information sur l’accessibilité d’une zone urbaine, de manière plus impactante, au moyen de la métaphore utilisée. Cette seconde phase sera également l'occasion de réfléchir collectivement à une définition de "métaphore cartographique".
 
