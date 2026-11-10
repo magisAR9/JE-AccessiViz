@@ -17,6 +17,16 @@ Dans une première partie de l’atelier (10h-12h), les participant·es auront �
 
 Dans une seconde phase (13h30-15h30), les participant·es seront invité·es à débattre de chaque proposition, et de la potentialité de transmettre à différents publics une information sur l’accessibilité d’une zone urbaine, de manière plus impactante, au moyen de la métaphore utilisée. Cette seconde phase sera également l'occasion de réfléchir collectivement à une définition de "métaphore cartographique".
 
+- 9h30 : accueil des ateliers Sagéo
+- 10h00 tapantes : démarrage de l’atelier
+- 10h00 - 10h10 : présentation de l ’atelier par Jacques Gautier
+- 10h10 - 10h30 : présentation des données, question, formation des binômes/groupes
+- 10h30 - 12h00 : atelier métaphores cartographiques
+- 12h00 : dépôt des productions
+- 12h00 - 13h30 : pause méridienne
+- 13h30 : reprise de l’atelier
+- 13h30 - 15h30 : debriefing des productions, construction collective d’une définition de la métaphore cartographique
+
 ## Détails
 
 Les inscriptions sont ouvertes jusqu’au 30 octobre, sur le site de [SAGEO 2026](https://sageo2026.sciencesconf.org/)
