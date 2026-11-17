@@ -17,8 +17,8 @@ Cartes et rejeu d’itinéraires pour l’atelier sur l’accessibilité urbaine
 ## Téléchargements QGIS
 
 - [Marche seulement (108,2 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-only-v3.zip) · [Dossier ShareDocs](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking&mode=grid)
-- [Transports sans attente seulement (80,3 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-no-wait-transit-only-v4.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Ftransit&mode=grid)
-- [Les deux modes (172,1 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-and-no-wait-transit-v5.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking%2Btransit&mode=grid)
+- [Transports sans attente seulement (89,7 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-no-wait-transit-only-v5.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Ftransit&mode=grid)
+- [Les deux modes (185,9 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-and-no-wait-transit-v6.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking%2Btransit&mode=grid)
 
 Décompressez le ZIP et ouvrez workshop.qgs.
 
@@ -30,7 +30,7 @@ Quels commerces, services et autres lieux peut-on rejoindre à pied à proximit�
 
 Comparez la **marche** et la **marche avec transports sans attente** ci-dessous. Le second mode retient le trajet le plus rapide, y compris à pied. La montée est immédiate. La durée inclut la marche, le temps à bord, les arrêts en cours de trajet et les correspondances.
 
-[Télécharger l’atlas (PDF A3, 36 pages, 58,0 Mo)](accessiviz-assets/atlas-accessiviz-a3.pdf?raw=true)
+[Télécharger l’atlas (PDF A3, 42 pages, 74,1 Mo)](accessiviz-assets/atlas-accessiviz-a3.pdf?raw=true)
 
 **PDF A3** pour imprimer. Chaque maille de 50 m est dessinée comme un rectangle vectoriel pour conserver des contours nets à l’agrandissement. Les titres, légendes et couches de contexte sont aussi vectoriels.
 
@@ -59,7 +59,7 @@ Décompressez le ZIP et ouvrez **workshop.qgs**. Dans le panneau des couches, ut
 
 ## Couches calculées par durée
 
-Les cartes comparées utilisent la même échelle. Les nombres de lieux, le choix de destinations et l’accès selon le rang sont disponibles pour la marche.
+Les cartes comparées utilisent la même échelle.
 
 Une maille vide indique que le modèle n’a pas de point de départ à cet endroit. Sur les cartes qui nécessitent un temps pour chaque catégorie, le gris indique que le modèle a un point de départ mais n’a trouvé aucun trajet pour au moins une catégorie. Voir la [qualité des mailles](#quality).
 
@@ -203,13 +203,25 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/choix-de-destinations-marche-5-mi
 
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/choix-de-destinations-marche-5-minutes.png?raw=true) · [10 min](accessiviz-assets/raster-maps/choix-de-destinations-marche-10-minutes.png?raw=true) · [15 min](accessiviz-assets/raster-maps/choix-de-destinations-marche-15-minutes.png?raw=true)
 
+#### Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/daily_reach_adapted-no-wait-5.webp" width="360" alt="Choix de destinations (%) · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/daily_reach_adapted-no-wait-10.webp" width="360" alt="Choix de destinations (%) · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/daily_reach_adapted-no-wait-15.webp" width="360" alt="Choix de destinations (%) · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 25 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 50 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 75 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> 100
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/choix-de-destinations-marche-et-transports-sans-attente-5-minutes.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/choix-de-destinations-marche-et-transports-sans-attente-10-minutes.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/choix-de-destinations-marche-et-transports-sans-attente-15-minutes.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/choix-de-destinations-marche-et-transports-sans-attente-5-minutes.png?raw=true) · [10 min](accessiviz-assets/raster-maps/choix-de-destinations-marche-et-transports-sans-attente-10-minutes.png?raw=true) · [15 min](accessiviz-assets/raster-maps/choix-de-destinations-marche-et-transports-sans-attente-15-minutes.png?raw=true)
+
 Pour une durée donnée, on compte les lieux distincts accessibles dans chaque catégorie. On convertit chaque nombre en un score de 0 à 100, puis on fait la moyenne des neuf scores. Passer de zéro café à un fait davantage monter le score de la restauration que de passer de dix à onze.
 
 Chaque catégorie a un nombre de lieux de référence. Pour l’alimentation, ce nombre est de quatre. Un commerce alimentaire accessible donne environ 53 points à la catégorie et quatre commerces lui en donnent environ 95.
 
 Score de la catégorie = 100 × (1 − e<sup>−3n/s</sup>)
 
-*n* est le nombre de lieux accessibles et *s* est le [nombre de référence](#category-definitions) de la catégorie. Cet indicateur est disponible pour la marche.
+*n* est le nombre de lieux accessibles et *s* est le [nombre de référence](#category-definitions) de la catégorie. Avec les transports sans attente, chaque lieu est pris en compte selon son trajet le plus rapide, à pied ou en transports sur l’un des deux jours de service modélisés.
 
 ### Catégorie limitante
 
@@ -257,6 +269,18 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/acces-aux-destinations-selon-leur
 
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/acces-aux-destinations-selon-leur-rang-marche-5-minutes.png?raw=true) · [10 min](accessiviz-assets/raster-maps/acces-aux-destinations-selon-leur-rang-marche-10-minutes.png?raw=true) · [15 min](accessiviz-assets/raster-maps/acces-aux-destinations-selon-leur-rang-marche-15-minutes.png?raw=true)
 
+#### Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/ranked_access_score-no-wait-5.webp" width="360" alt="Accès aux destinations selon leur rang (%) · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/ranked_access_score-no-wait-10.webp" width="360" alt="Accès aux destinations selon leur rang (%) · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/ranked_access_score-no-wait-15.webp" width="360" alt="Accès aux destinations selon leur rang (%) · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 25 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 50 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 75 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> 100
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/acces-aux-destinations-selon-leur-rang-marche-et-transports-sans-attente-5-minutes.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/acces-aux-destinations-selon-leur-rang-marche-et-transports-sans-attente-10-minutes.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/acces-aux-destinations-selon-leur-rang-marche-et-transports-sans-attente-15-minutes.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/acces-aux-destinations-selon-leur-rang-marche-et-transports-sans-attente-5-minutes.png?raw=true) · [10 min](accessiviz-assets/raster-maps/acces-aux-destinations-selon-leur-rang-marche-et-transports-sans-attente-10-minutes.png?raw=true) · [15 min](accessiviz-assets/raster-maps/acces-aux-destinations-selon-leur-rang-marche-et-transports-sans-attente-15-minutes.png?raw=true)
+
 Depuis une maille, on classe les lieux de chaque catégorie du plus rapide au plus long à rejoindre. Le premier vaut au départ 50 points, le deuxième 25, le troisième 12,5, et ainsi de suite. On réduit ensuite les points de chaque lieu selon la durée du trajet.
 
 Sur la carte à 5 minutes, chaque tranche de 5 minutes de trajet divise les points d’un lieu par deux. Un commerce alimentaire à 5 minutes donne 25 points. Un deuxième à 10 minutes en ajoute 6,25. À eux deux, ils donnent 31,25 points à la catégorie Alimentation. On additionne les points dans chaque catégorie, puis on fait la moyenne des neuf totaux.
@@ -265,7 +289,7 @@ Points par lieu = 100 × 2<sup>−r − t/T</sup>
 
 *r* est le rang (1 pour le premier), *t* la durée du trajet en minutes et *T* le nombre de minutes indiqué sur la carte.
 
-Les trois cartes incluent les trajets de 15 minutes ou moins. Sur les cartes à 10 et 15 minutes, les points d’un lieu sont divisés par deux toutes les 10 et 15 minutes, respectivement. Cet indicateur est disponible pour la marche.
+Les trois durées incluent les trajets de 15 minutes ou moins. Sur les cartes à 10 et 15 minutes, les points d’un lieu sont divisés par deux toutes les 10 et 15 minutes, respectivement. Avec les transports sans attente, chaque lieu est pris en compte selon son trajet le plus rapide, à pied ou en transports sur l’un des deux jours de service modélisés.
 
 <a name="shared"></a>
 
@@ -339,7 +363,7 @@ La différence est calculée à partir des durées complètes. L’échelle de c
 
 ## Destinations par catégorie
 
-Le **temps minimum** peut dépasser 15 minutes dans les deux modes. Le **nombre** compte les lieux distincts accessibles à pied dans le temps imparti. Un parc à plusieurs entrées ne compte qu’une fois.
+Le **temps minimum** peut dépasser 15 minutes dans les deux modes. Le **nombre** compte les lieux distincts accessibles dans le temps imparti pour chaque mode. Un parc à plusieurs entrées ne compte qu’une fois.
 
 Les **points** indiquent les lieux ponctuels et les **surfaces** leurs emprises. Dans QGIS, zoomez au 1:35 000 pour les points ou au 1:80 000 pour les surfaces.
 
@@ -383,6 +407,20 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/alimentation-nombre-de-lieux-a-5-
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/alimentation-nombre-de-lieux-a-5-minutes-a-pied.png?raw=true) · [10 min](accessiviz-assets/raster-maps/alimentation-nombre-de-lieux-a-10-minutes-a-pied.png?raw=true) · [15 min](accessiviz-assets/raster-maps/alimentation-nombre-de-lieux-a-15-minutes-a-pied.png?raw=true)
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
+
+#### Nombre de lieux · Alimentation · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/grocery-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Alimentation · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/grocery-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Alimentation · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/grocery-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Alimentation · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/alimentation-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/alimentation-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/alimentation-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/alimentation-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/alimentation-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/alimentation-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
 
 #### Points · Alimentation
 
@@ -447,6 +485,20 @@ PNG 50 m · [5 min](accessiviz-assets/raster-maps/sante-nombre-de-lieux-a-5-minu
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
 
+#### Nombre de lieux · Santé · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/healthcare-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Santé · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/healthcare-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Santé · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/healthcare-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Santé · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/sante-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/sante-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/sante-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/sante-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/sante-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/sante-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
+
 #### Points · Santé
 
 <img src="accessiviz-assets/maps/healthcare-points.webp" width="360" alt="Points · Santé" />
@@ -509,6 +561,20 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/education-nombre-de-lieux-a-5-min
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/education-nombre-de-lieux-a-5-minutes-a-pied.png?raw=true) · [10 min](accessiviz-assets/raster-maps/education-nombre-de-lieux-a-10-minutes-a-pied.png?raw=true) · [15 min](accessiviz-assets/raster-maps/education-nombre-de-lieux-a-15-minutes-a-pied.png?raw=true)
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
+
+#### Nombre de lieux · Éducation · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/education-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Éducation · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/education-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Éducation · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/education-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Éducation · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/education-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/education-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/education-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/education-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/education-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/education-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
 
 #### Points · Éducation
 
@@ -573,6 +639,20 @@ PNG 50 m · [5 min](accessiviz-assets/raster-maps/loisirs-nombre-de-lieux-a-5-mi
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
 
+#### Nombre de lieux · Loisirs · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/recreation-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Loisirs · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/recreation-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Loisirs · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/recreation-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Loisirs · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/loisirs-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/loisirs-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/loisirs-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/loisirs-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/loisirs-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/loisirs-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
+
 #### Points · Loisirs
 
 <img src="accessiviz-assets/maps/recreation-points.webp" width="360" alt="Points · Loisirs" />
@@ -635,6 +715,20 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/restauration-nombre-de-lieux-a-5-
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/restauration-nombre-de-lieux-a-5-minutes-a-pied.png?raw=true) · [10 min](accessiviz-assets/raster-maps/restauration-nombre-de-lieux-a-10-minutes-a-pied.png?raw=true) · [15 min](accessiviz-assets/raster-maps/restauration-nombre-de-lieux-a-15-minutes-a-pied.png?raw=true)
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
+
+#### Nombre de lieux · Restauration · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/dining-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Restauration · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/dining-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Restauration · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/dining-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Restauration · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/restauration-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/restauration-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/restauration-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/restauration-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/restauration-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/restauration-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
 
 #### Points · Restauration
 
@@ -699,6 +793,20 @@ PNG 50 m · [5 min](accessiviz-assets/raster-maps/commerces-et-services-nombre-d
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
 
+#### Nombre de lieux · Commerces et services · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/shopping-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Commerces et services · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/shopping-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Commerces et services · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/shopping-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Commerces et services · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/commerces-et-services-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/commerces-et-services-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/commerces-et-services-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/commerces-et-services-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/commerces-et-services-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/commerces-et-services-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
+
 #### Points · Commerces et services
 
 <img src="accessiviz-assets/maps/shopping-points.webp" width="360" alt="Points · Commerces et services" />
@@ -761,6 +869,20 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/services-civiques-nombre-de-lieux
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/services-civiques-nombre-de-lieux-a-5-minutes-a-pied.png?raw=true) · [10 min](accessiviz-assets/raster-maps/services-civiques-nombre-de-lieux-a-10-minutes-a-pied.png?raw=true) · [15 min](accessiviz-assets/raster-maps/services-civiques-nombre-de-lieux-a-15-minutes-a-pied.png?raw=true)
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
+
+#### Nombre de lieux · Services civiques · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/civic-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Services civiques · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/civic-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Services civiques · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/civic-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Services civiques · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/services-civiques-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/services-civiques-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/services-civiques-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/services-civiques-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/services-civiques-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/services-civiques-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
 
 #### Points · Services civiques
 
@@ -825,6 +947,20 @@ PNG 50 m · [5 min](accessiviz-assets/raster-maps/nature-nombre-de-lieux-a-5-min
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
 
+#### Nombre de lieux · Nature · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/nature-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Nature · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/nature-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Nature · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/nature-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Nature · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/nature-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/nature-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/nature-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/nature-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/nature-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/nature-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
+
 #### Points · Nature
 
 <img src="accessiviz-assets/maps/nature-points.webp" width="360" alt="Points · Nature" />
@@ -887,6 +1023,20 @@ PDF A3 · [5 min](accessiviz-assets/print-maps/culture-nombre-de-lieux-a-5-minut
 PNG 50 m · [5 min](accessiviz-assets/raster-maps/culture-nombre-de-lieux-a-5-minutes-a-pied.png?raw=true) · [10 min](accessiviz-assets/raster-maps/culture-nombre-de-lieux-a-10-minutes-a-pied.png?raw=true) · [15 min](accessiviz-assets/raster-maps/culture-nombre-de-lieux-a-15-minutes-a-pied.png?raw=true)
 
 Nombre de lieux distincts de cette catégorie dans le temps de marche choisi. Zéro signifie qu’aucun lieu n’est atteint.
+
+#### Nombre de lieux · Culture · Marche + transports sans attente
+
+| Marche + transports sans attente · 5 min | Marche + transports sans attente · 10 min | Marche + transports sans attente · 15 min |
+|----|----|----|
+| <img src="accessiviz-assets/maps/culture-no-wait-count-5.webp" width="360" alt="Nombre de lieux · Culture · Marche + transports sans attente · 5 min" /> | <img src="accessiviz-assets/maps/culture-no-wait-count-10.webp" width="360" alt="Nombre de lieux · Culture · Marche + transports sans attente · 10 min" /> | <img src="accessiviz-assets/maps/culture-no-wait-count-15.webp" width="360" alt="Nombre de lieux · Culture · Marche + transports sans attente · 15 min" /> |
+
+<img src="accessiviz-assets/legendes/7a0403.png" width="12" height="12" /> 0 · <img src="accessiviz-assets/legendes/fb7e21.png" width="12" height="12" /> 2 · <img src="accessiviz-assets/legendes/a4fc3c.png" width="12" height="12" /> 4 · <img src="accessiviz-assets/legendes/28bceb.png" width="12" height="12" /> 6 · <img src="accessiviz-assets/legendes/30123b.png" width="12" height="12" /> ≥ 8
+
+PDF A3 · [5 min](accessiviz-assets/print-maps/culture-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.pdf?raw=true) · [10 min](accessiviz-assets/print-maps/culture-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.pdf?raw=true) · [15 min](accessiviz-assets/print-maps/culture-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.pdf?raw=true)
+
+PNG 50 m · [5 min](accessiviz-assets/raster-maps/culture-nombre-de-lieux-a-5-minutes-en-transports-sans-attente.png?raw=true) · [10 min](accessiviz-assets/raster-maps/culture-nombre-de-lieux-a-10-minutes-en-transports-sans-attente.png?raw=true) · [15 min](accessiviz-assets/raster-maps/culture-nombre-de-lieux-a-15-minutes-en-transports-sans-attente.png?raw=true)
+
+Compte les lieux distincts atteints dans le temps choisi. Pour chaque lieu, on retient le trajet le plus rapide à pied ou en transports sans attente. Zéro signifie qu’aucun lieu n’est atteint.
 
 #### Points · Culture
 
@@ -1451,7 +1601,7 @@ La carte affiche les destinations de la catégorie dans cette emprise. Les lieux
 
 [PDF A3](accessiviz-assets/print-maps/chemins-accessibles-a-pied-depuis-une-maille-de-colomiers-en-15-minutes.pdf?raw=true)
 
-[Télécharger le guide interactif (HTML)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/accessiviz-guide-interactif-v3.html)
+[Télécharger le guide interactif (HTML)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/accessiviz-guide-interactif-v4.html)
 
 <details>
 <summary>Du rejeu aux indicateurs publiés</summary>
