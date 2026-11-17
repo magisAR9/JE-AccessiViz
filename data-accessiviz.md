@@ -16,9 +16,9 @@ Cartes et rejeu d’itinéraires pour l’atelier sur l’accessibilité urbaine
 
 ## Téléchargements QGIS
 
-- [Marche seulement (108,2 MB)](https://github.com/MaxSpur/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-only-v3.zip) · [Dossier ShareDocs](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking&mode=grid)
-- [Transports sans attente seulement (80,3 MB)](https://github.com/MaxSpur/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-no-wait-transit-only-v4.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Ftransit&mode=grid)
-- [Les deux modes (172,1 MB)](https://github.com/MaxSpur/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-and-no-wait-transit-v5.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking%2Btransit&mode=grid)
+- [Marche seulement (108,2 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-only-v3.zip) · [Dossier ShareDocs](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking&mode=grid)
+- [Transports sans attente seulement (80,3 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-no-wait-transit-only-v4.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Ftransit&mode=grid)
+- [Les deux modes (172,1 MB)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/toulouse-walking-and-no-wait-transit-v5.zip) · [Dossier ShareDocs (édition précédente)](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Ressources%2FDonnees%2Fwalking%2Btransit&mode=grid)
 
 Décompressez le ZIP et ouvrez workshop.qgs.
 
@@ -1451,7 +1451,7 @@ La carte affiche les destinations de la catégorie dans cette emprise. Les lieux
 
 [PDF A3](accessiviz-assets/print-maps/chemins-accessibles-a-pied-depuis-une-maille-de-colomiers-en-15-minutes.pdf?raw=true)
 
-[Télécharger le guide interactif (HTML)](https://github.com/MaxSpur/JE-AccessiViz/releases/download/sageo-2026-donnees/accessiviz-guide-interactif-v3.html)
+[Télécharger le guide interactif (HTML)](https://github.com/magisAR9/JE-AccessiViz/releases/download/sageo-2026-donnees/accessiviz-guide-interactif-v3.html)
 
 <details>
 <summary>Du rejeu aux indicateurs publiés</summary>
