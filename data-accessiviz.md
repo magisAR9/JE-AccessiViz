@@ -12,6 +12,8 @@ Cartes et rejeu d’itinéraires pour l’atelier sur l’accessibilité urbaine
 
 **[Déposer vos productions sur ShareDocs](https://sharedocs.huma-num.fr/wl/?id=vuYaF43INPyqNSy62W2VL1VktpfjYSSB&path=Productions&mode=grid)**
 
+**[Collaborer sur Excalidraw](https://excalidraw.com/#room=01688d69a00ac41e9704,YsqpS7JfUV3LXZGPVMxg1Q)**
+
 <a name="downloads"></a>
 
 ## Téléchargements QGIS
