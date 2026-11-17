@@ -1,0 +1,312 @@
+Category,Category ID,Recorded primary subtype,Distinct destinations,With routing access points
+Civic services,civic,bank,344,342
+Civic services,civic,community_centre,243,237
+Civic services,civic,fire_station,12,12
+Civic services,civic,place_of_worship,260,252
+Civic services,civic,police,56,41
+Civic services,civic,post_office,132,128
+Civic services,civic,social_centre,24,23
+Civic services,civic,townhall,138,138
+Culture,culture,arts_centre,37,35
+Culture,culture,cinema,34,33
+Culture,culture,concert_hall,1,1
+Culture,culture,garden,1,1
+Culture,culture,library,96,94
+Culture,culture,museum,29,27
+Culture,culture,music_venue,2,2
+Culture,culture,place_of_worship,1,1
+Culture,culture,theatre,68,66
+Dining,dining,bar,249,244
+Dining,dining,cafe,259,256
+Dining,dining,fast_food,730,722
+Dining,dining,food_court,9,8
+Dining,dining,ice_cream,22,22
+Dining,dining,pub,66,64
+Dining,dining,restaurant,1487,1461
+Education,education,college,107,102
+Education,education,kindergarten,199,193
+Education,education,library,96,94
+Education,education,school,826,764
+Education,education,university,124,119
+Groceries,grocery,bakery,402,400
+Groceries,grocery,butcher,209,209
+Groceries,grocery,cafe,3,3
+Groceries,grocery,convenience,355,349
+Groceries,grocery,deli,69,69
+Groceries,grocery,farm,15,15
+Groceries,grocery,fast_food,5,5
+Groceries,grocery,food,2,2
+Groceries,grocery,fuel,16,16
+Groceries,grocery,greengrocer,79,79
+Groceries,grocery,grocery,4,4
+Groceries,grocery,marketplace,104,103
+Groceries,grocery,pub,1,1
+Groceries,grocery,restaurant,6,6
+Groceries,grocery,seafood,30,29
+Groceries,grocery,supermarket,219,217
+Healthcare,healthcare,centre,17,17
+Healthcare,healthcare,clinic,44,40
+Healthcare,healthcare,dentist,210,206
+Healthcare,healthcare,doctor,8,7
+Healthcare,healthcare,doctors,305,300
+Healthcare,healthcare,healthcare,1,1
+Healthcare,healthcare,hospital,37,36
+Healthcare,healthcare,laboratory,96,94
+Healthcare,healthcare,pharmacy,324,321
+Healthcare,healthcare,physiotherapist,71,68
+Healthcare,healthcare,social_facility,1,1
+Nature,nature,attraction,1,1
+Nature,nature,fishing,1,1
+Nature,nature,forest,1159,1077
+Nature,nature,fountain,2,2
+Nature,nature,garden,42,40
+Nature,nature,island,1,1
+Nature,nature,islet,4,0
+Nature,nature,marina,1,1
+Nature,nature,nature_reserve,5,5
+Nature,nature,park,560,555
+Nature,nature,scrub,3,3
+Nature,nature,water,1837,1595
+Nature,nature,wood,2553,2318
+Recreation,recreation,arts_centre,37,35
+Recreation,recreation,beauty,1,1
+Recreation,recreation,cafe,1,1
+Recreation,recreation,cinema,34,33
+Recreation,recreation,common,1,1
+Recreation,recreation,community_centre,3,3
+Recreation,recreation,dancing_school,1,1
+Recreation,recreation,doctors,1,1
+Recreation,recreation,dojo,2,2
+Recreation,recreation,fitness_centre,123,118
+Recreation,recreation,garden,199,162
+Recreation,recreation,park,560,555
+Recreation,recreation,parking,1,1
+Recreation,recreation,pitch,2108,1992
+Recreation,recreation,playground,712,689
+Recreation,recreation,sports_centre,308,287
+Recreation,recreation,square,184,181
+Recreation,recreation,swimming_pool,156,3
+Recreation,recreation,theatre,68,66
+Shopping,shopping,agrarian,2,2
+Shopping,shopping,airplane,1,1
+Shopping,shopping,alcohol,65,64
+Shopping,shopping,alcohol;butcher;cheese,1,1
+Shopping,shopping,anime,2,2
+Shopping,shopping,antiques,18,18
+Shopping,shopping,apiary,2,2
+Shopping,shopping,appliance,8,8
+Shopping,shopping,art,27,27
+Shopping,shopping,auction_house,2,2
+Shopping,shopping,baby_goods,10,10
+Shopping,shopping,baby_goods;clothes,1,1
+Shopping,shopping,bag,12,12
+Shopping,shopping,bakery;pastry,1,1
+Shopping,shopping,bar,9,9
+Shopping,shopping,bathroom_furnishing,6,5
+Shopping,shopping,battery,1,1
+Shopping,shopping,beauty,246,245
+Shopping,shopping,bed,18,18
+Shopping,shopping,beverages,3,3
+Shopping,shopping,bicycle,72,70
+Shopping,shopping,bicycle_rental,4,4
+Shopping,shopping,bicycle_repair,1,1
+Shopping,shopping,bookmaker,3,3
+Shopping,shopping,books,78,78
+Shopping,shopping,boutique,2,2
+Shopping,shopping,building_materials,1,1
+Shopping,shopping,bureau_de_change,1,1
+Shopping,shopping,cafe,14,14
+Shopping,shopping,camera,2,2
+Shopping,shopping,candles,3,3
+Shopping,shopping,cannabis,21,21
+Shopping,shopping,car,141,134
+Shopping,shopping,car_parts,25,24
+Shopping,shopping,car_rental,1,1
+Shopping,shopping,car_repair,255,251
+Shopping,shopping,caravan,8,8
+Shopping,shopping,carpet,3,3
+Shopping,shopping,charity,9,8
+Shopping,shopping,cheese,40,40
+Shopping,shopping,chemist,13,13
+Shopping,shopping,chocolate,37,37
+Shopping,shopping,clothes,631,626
+Shopping,shopping,clothes & accessories,1,0
+Shopping,shopping,clothes;shoes,2,2
+Shopping,shopping,coffee,12,12
+Shopping,shopping,collector,1,1
+Shopping,shopping,computer,25,25
+Shopping,shopping,concept_store,1,1
+Shopping,shopping,confectionery,21,21
+Shopping,shopping,copyshop,21,20
+Shopping,shopping,cosmetics,68,68
+Shopping,shopping,country_store,2,2
+Shopping,shopping,craft,14,14
+Shopping,shopping,curtain,2,2
+Shopping,shopping,dairy,3,3
+Shopping,shopping,department_store,3,3
+Shopping,shopping,doityourself,82,81
+Shopping,shopping,doors,2,2
+Shopping,shopping,dressmaker,1,1
+Shopping,shopping,dry_cleaning,46,46
+Shopping,shopping,e-cigarette,54,54
+Shopping,shopping,electric_scooter,1,1
+Shopping,shopping,electrical,11,9
+Shopping,shopping,electronics,30,30
+Shopping,shopping,ephemera,1,1
+Shopping,shopping,erotic,8,8
+Shopping,shopping,esoteric,4,4
+Shopping,shopping,estate_agent,6,6
+Shopping,shopping,fabric,25,25
+Shopping,shopping,fashion_accessories,15,14
+Shopping,shopping,fireplace,8,8
+Shopping,shopping,fishing,3,3
+Shopping,shopping,flooring,3,3
+Shopping,shopping,flooring;bathroom_furnishing,1,1
+Shopping,shopping,florist,106,106
+Shopping,shopping,foot,1,1
+Shopping,shopping,frame,3,2
+Shopping,shopping,frozen_food,35,35
+Shopping,shopping,fuel,74,74
+Shopping,shopping,funeral_directors,36,36
+Shopping,shopping,furniture,77,77
+Shopping,shopping,gambling,1,1
+Shopping,shopping,games,11,11
+Shopping,shopping,garden_centre,32,30
+Shopping,shopping,gas,6,6
+Shopping,shopping,general,9,8
+Shopping,shopping,gift,35,33
+Shopping,shopping,gift;kiosk;sports,1,1
+Shopping,shopping,glaziery,4,4
+Shopping,shopping,gold,4,4
+Shopping,shopping,gold_buyer,1,1
+Shopping,shopping,groundskeeping,3,3
+Shopping,shopping,hairdresser,642,637
+Shopping,shopping,hairdresser_supply,13,13
+Shopping,shopping,handicraft,1,1
+Shopping,shopping,hardware,18,17
+Shopping,shopping,health_food,2,2
+Shopping,shopping,hearing_aids,56,55
+Shopping,shopping,herbalist,2,2
+Shopping,shopping,hifi,9,9
+Shopping,shopping,honey,1,1
+Shopping,shopping,household_linen,4,4
+Shopping,shopping,houseware,8,8
+Shopping,shopping,ice_cream,1,1
+Shopping,shopping,interior_decoration,78,77
+Shopping,shopping,interior_design,1,1
+Shopping,shopping,internet_cafe,1,1
+Shopping,shopping,jewelry,141,138
+Shopping,shopping,kiosk,16,16
+Shopping,shopping,kitchen,45,45
+Shopping,shopping,kitchenware,4,4
+Shopping,shopping,knives,3,3
+Shopping,shopping,laundry,138,137
+Shopping,shopping,leather,9,9
+Shopping,shopping,lighting,2,2
+Shopping,shopping,locksmith,11,11
+Shopping,shopping,machines,1,1
+Shopping,shopping,mail,1,1
+Shopping,shopping,mall,27,27
+Shopping,shopping,massage,32,32
+Shopping,shopping,medical_supply,15,14
+Shopping,shopping,mobile_phone,56,55
+Shopping,shopping,mobile_phone_accessories,9,9
+Shopping,shopping,mobility_scooter; bicycle,1,1
+Shopping,shopping,model,2,2
+Shopping,shopping,money_lender,4,4
+Shopping,shopping,money_transfer,1,1
+Shopping,shopping,motorcycle,34,31
+Shopping,shopping,motorcycle_repair,2,2
+Shopping,shopping,music,7,7
+Shopping,shopping,musical_instrument,21,21
+Shopping,shopping,newsagent,112,111
+Shopping,shopping,newsagent;tobacco,1,1
+Shopping,shopping,nutrition_supplements,14,13
+Shopping,shopping,optician,230,229
+Shopping,shopping,orthopedics,1,1
+Shopping,shopping,outdoor,8,8
+Shopping,shopping,outpost,6,6
+Shopping,shopping,paint,22,22
+Shopping,shopping,parcel_locker,1,1
+Shopping,shopping,party,5,5
+Shopping,shopping,pastry,67,67
+Shopping,shopping,perfumery,20,20
+Shopping,shopping,pet,28,28
+Shopping,shopping,pet_grooming,22,22
+Shopping,shopping,pharmacy,5,5
+Shopping,shopping,photo,7,7
+Shopping,shopping,photo_studio,1,1
+Shopping,shopping,pottery,1,1
+Shopping,shopping,printer_ink,2,2
+Shopping,shopping,printing,1,1
+Shopping,shopping,psychic,1,1
+Shopping,shopping,radiotechnics,8,8
+Shopping,shopping,recycling,1,1
+Shopping,shopping,religion,1,1
+Shopping,shopping,rental,6,6
+Shopping,shopping,repair,2,2
+Shopping,shopping,restaurant,3,3
+Shopping,shopping,scooter,2,2
+Shopping,shopping,scuba_diving,1,1
+Shopping,shopping,second_hand,22,21
+Shopping,shopping,security,1,1
+Shopping,shopping,sewing,15,15
+Shopping,shopping,shoe_repair,8,8
+Shopping,shopping,shoes,102,102
+Shopping,shopping,skate,1,1
+Shopping,shopping,social_facility,1,1
+Shopping,shopping,spices,2,2
+Shopping,shopping,sports,49,49
+Shopping,shopping,stationery,19,19
+Shopping,shopping,storage_rental,41,39
+Shopping,shopping,swimming_pool,17,16
+Shopping,shopping,tailor,7,7
+Shopping,shopping,tapestry,1,1
+Shopping,shopping,tattoo,52,52
+Shopping,shopping,tea,14,13
+Shopping,shopping,telecommunication,16,16
+Shopping,shopping,ticket,20,20
+Shopping,shopping,tiles,6,6
+Shopping,shopping,tobacco,68,67
+Shopping,shopping,tobacco;alcohol,1,1
+Shopping,shopping,tobacco;newsagent,1,1
+Shopping,shopping,tool_hire,9,8
+Shopping,shopping,toy_library,1,1
+Shopping,shopping,toys,24,24
+Shopping,shopping,trade,10,8
+Shopping,shopping,travel_agency,50,49
+Shopping,shopping,tyres,12,11
+Shopping,shopping,variety_store,56,56
+Shopping,shopping,video,2,2
+Shopping,shopping,video_games,10,10
+Shopping,shopping,watches,12,12
+Shopping,shopping,water,1,1
+Shopping,shopping,water_filter,1,1
+Shopping,shopping,weapons,2,2
+Shopping,shopping,wedding,1,1
+Shopping,shopping,wholesale,3,3
+Shopping,shopping,wigs,2,2
+Shopping,shopping,window_blind,4,4
+Shopping,shopping,wine,40,40
+Shopping,shopping,workshop,2,2
+Public transit stops and stations,transit,bus_station,9,9
+Public transit stops and stations,transit,bus_stop,3,2
+Public transit stops and stations,transit,halt,16,16
+Public transit stops and stations,transit,platform,4811,4793
+Public transit stops and stations,transit,shelter,3,3
+Public transit stops and stations,transit,station,52,51
+Public transit stops and stations,transit,stop_position,3,3
+Public transit stops and stations,transit,tram_stop,57,57
+Bus stops,transit_bus,bus_station,9,9
+Bus stops,transit_bus,bus_stop,3,2
+Bus stops,transit_bus,platform,4736,4718
+Bus stops,transit_bus,shelter,3,3
+Bus stops,transit_bus,station,10,10
+Bus stops,transit_bus,stop_position,3,3
+Metro stations,transit_metro,platform,2,2
+Metro stations,transit_metro,station,40,39
+Rail stations,transit_rail,halt,16,16
+Rail stations,transit_rail,platform,22,22
+Rail stations,transit_rail,station,12,12
+Tram stops,transit_tram,platform,53,53
+Tram stops,transit_tram,tram_stop,57,57
